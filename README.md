@@ -4,93 +4,89 @@ Official Documentation, Audit & Whitepaper
 
 ---
 
-## 📄 Whitepaper
+## 🚀 Overview
 
-Download:
-https://github.com/usdgoldmem/usdg-whitepaper/blob/main/USDG_Whitepaper_PRO.pdf
+USDG (Gold USD) is a decentralized multi-chain DeFi asset designed for transparency, security, and unrestricted trading across blockchain networks.
 
----
-
-## 📑 Audit
-
-Dessert Finance Audit:
-https://github.com/usdgoldmem/usdg-whitepaper/blob/main/audit/USDG-AUDIT.pdf
+This is NOT a new token, but a continuation of the USDG project following a contract upgrade aimed at improving security, clarity, and compatibility with wallets and analytics platforms.
 
 ---
 
-## 🔎 Project Overview
+## 🔄 Contract Migration
 
-USDG (Gold USD) is a decentralized multi-chain digital asset designed for transparency, security, and unrestricted trading.
+To enhance reliability and eliminate outdated metadata issues, USDG has migrated to new smart contracts.
 
----
+### Old Contracts (Deprecated)
+- ETH: 0x82248D53De2B7608cAF53978A8E8C238DC42403a  
+- BNB: 0x82248D53De2B7608cAF53978A8E8C238DC42403a  
 
-## ⚙️ Smart Contract
-
-Contract Address:
-0x82248D53De2B7608cAF53978A8E8C238DC42403a
-
-Supported Networks:
-- Ethereum  
-- BNB Chain  
-- Arbitrum  
+### New Contracts (Active)
+- ETH: 0x3C89DF6C17Ca5c735498712d343387198e573383  
+- BNB: 0x5b6D884174853f2c2D1A98b406c3b44F411D3cbC  
 
 ---
 
-## ⚙️ Key Features
+## 🔐 Security
 
-- ✔ 0% Buy Tax  
-- ✔ 0% Sell Tax  
+The USDG smart contracts are designed with a clean and transparent structure:
+
 - ✔ No blacklist  
 - ✔ No transfer restrictions  
+- ✔ No hidden logic  
 - ✔ Fully tradable  
-- ✔ Open-source smart contract  
+- ✔ Verified smart contracts  
+
+### Security Review
+
+Previous honeypot classifications were independently reviewed by Blockaid and confirmed to be false positives.
+
+The classification has been corrected following their investigation.
 
 ---
 
-## 📊 Security & Verification
+## 🛡️ Audit & Verification
 
-Independent verifications confirm:
+Before deployment, the new contracts were:
 
-- ✔ No honeypot behavior  
-- ✔ No hidden restrictions  
-- ✔ Successful buy/sell transactions  
+- Independently audited  
+- Manually reviewed for malicious or restrictive behavior  
+- Tested for full buy/sell functionality  
 
-External checks:
+### Audit Reports
 
-- GoPlus Security → LOW RISK  
-- Honeypot simulation → inconsistent false positives  
-- Blockaid API → previously classified as BENIGN  
+- BNB Audit (NEW): ./audit/USDG-AUDIT-BNB-NEW.pdf  
+- ETH Audit (NEW): ./audit/USDG-AUDIT-ETH-NEW.pdf  
+- Previous Audit: ./audit/USDG-AUDIT-OLD.pdf  
+
+---
+
+## 📄 Whitepaper
+
+Full documentation is available here:
+
+https://github.com/usdgoldmem/usdg-whitepaper/blob/main/USDG_Whitepaper_PRO.pdf
 
 ---
 
 ## 🌐 Official Links
 
-Website:  
-https://usdgdefi.com/
-
-GitHub:  
-https://github.com/usdgoldmem  
-
----
-
-## 📈 Transparency
-
-- Smart contract is verified  
-- On-chain trading is active  
-- Liquidity is publicly visible  
+- Website: https://usdgdefi.com/  
+- GitHub: https://github.com/usdgoldmem  
+- Telegram: https://t.me/usdggold  
+- Twitter: https://x.com/UsdMem  
 
 ---
 
-## ⚠️ Important Notice
+## 📊 Transparency
 
-USDG is NOT a honeypot.
-
-The token is fully tradable and verified across multiple independent platforms.
-
-Any classification suggesting otherwise is a false positive.
+- Smart contracts are publicly verified  
+- On-chain activity is visible  
+- Liquidity and trading are active  
+- All updates are documented in GitHub  
 
 ---
 
 ## ⚠️ Disclaimer
 
-USDG is a decentralized digital asset. Users must conduct their own research (DYOR).
+USDG is a DeFi token and not a stablecoin.  
+It is not affiliated with any fiat issuer or centralized entity.
