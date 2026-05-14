@@ -1,0 +1,30 @@
+{
+  "project": "USDG (Gold USD)",
+  "type": "Multi-chain DeFi Token",
+  "contracts": {
+    "BNB_NEW": {
+      "network": "BNB Chain",
+      "address": "0x5b6D884174853f2c2D1A98b406c3b44F411D3cbC",
+      "status": "active",
+      "note": "New primary contract after migration"
+    },
+    "BNB_OLD": {
+      "network": "BNB Chain",
+      "address": "0x82248D53De2B7608cAF53978A8E8C238DC42403a",
+      "status": "deprecated",
+      "note": "Old contract, replaced"
+    },
+    "ETH_NEW": {
+      "network": "Ethereum",
+      "address": "0x3C89DF6C17Ca5c735498712d343387198e573383",
+      "status": "active",
+      "note": "New primary Ethereum contract after migration"
+    },
+    "ETH_OLD": {
+      "network": "Ethereum",
+      "address": "0x82248D53De2B7608cAF53978A8E8C238DC42403a",
+      "status": "deprecated",
+      "note": "Old Ethereum contract, replaced"
+    }
+  }
+}
